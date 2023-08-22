@@ -23,6 +23,10 @@ while True:
     if playerNumber == magicNumber:
         print("This is correct! You win!")
         break
+    elif magicNumber < playerNumber:
+        print("The magic number is lower")
+    elif magicNumber > playerNumber:
+        print("The magic number is higher")
 
     # Wrong number, continue 
     print("This is not the magic number. Try again!")
