@@ -1,5 +1,7 @@
+import random
+
 # Magic number initialization
-magicNumber = 3
+magicNumber = random.randint(1,10)
 
 # Main game loop
 while True:
